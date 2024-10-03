@@ -41,7 +41,6 @@ function putInfo(uname, name, introText, introPic, careerText, careerPic, skills
 }
 
 function useInfo(info) {
-
     templateElements.name.innerText = info.name;
     templateElements.intro_text.innerText = info.introText;
     templateElements.career_text.innerText = info.careerText;
@@ -111,4 +110,13 @@ putInfo("bieleczkig", "Kolega",
 );
 
 createUserLinks();
-useInfo(users.get(uname));
+
+const currentUser = users.get(uname);
+
+if( undefined == currentUser ) {
+    useInfo(users.entries().next().value[1]);
+
+} else {
+    useInfo(currentUser);
+    
+}
