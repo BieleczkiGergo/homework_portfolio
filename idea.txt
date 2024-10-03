@@ -1,0 +1,21 @@
+https://www.orestisgeorgiou.com/
+https://www.pascalvangemert.nl/
+https://www.joshuamccartney.com/
+https://www.adamhartwig.co.uk/
+
+Georgiou:
+tagoltság
+
+Pascal:
+csillagok
+
+Joshua:
+képek - elmosódás effektus
+
+paletta
+#000
+#FFF
+#81d1fc
+#38b6fa
+#069def
+

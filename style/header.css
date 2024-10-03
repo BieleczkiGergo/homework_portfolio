@@ -1,0 +1,44 @@
+@import url("colors.css");
+
+header {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-template-rows: auto;
+
+    background-color: var(--frame-color);
+    color: var(--background-color);
+    --padding-frame: 20px;
+    padding-left: var(--padding-frame);
+    padding-right: var(--padding-frame);
+    padding-top: var(--padding-frame);
+
+}
+
+header * {
+    display: inline-block;
+
+}
+
+header nav {
+    text-align: right;
+    align-content: end;
+
+}
+
+header nav a{
+    display: inline-block;
+
+    --side-padding: 10px;
+    padding-left: var(--side-padding);
+    padding-right: var(--side-padding);
+
+    background-color: var(--main-color);
+    text-decoration: none;
+    color: var(--background-color);
+
+}
+
+header a:active {
+    background-color: var(--accent-color);
+
+}

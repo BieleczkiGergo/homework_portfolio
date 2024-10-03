@@ -1,0 +1,53 @@
+@import url("colors.css");
+
+footer {
+    display: grid;
+    grid-template-columns: 10% repeat(auto, 2) 10%;
+    grid-template-rows: auto;
+    grid-template-areas: ". left right .";
+
+    background-color: var(--frame-color);
+    color: var(--background-color);
+
+}
+
+footer h2 {
+    grid-area: title;
+
+}
+
+footer #left {
+    grid-area: left;
+
+    align-content: start;
+    padding: 20px;
+
+}
+
+footer table td {
+    --side_padding: 20px;
+    padding-left: var(--side_padding);
+    padding-left: var(--side_padding);
+    /* position: static; */
+
+}
+
+footer #right {
+    grid-area: right;
+    align-content: end;
+    text-align: end;
+
+}
+
+#right {
+    position: relative;
+    right: 20px;
+}
+
+
+footer img{
+    width: 50px;
+    height: 50px;
+    left: 0px;
+
+}

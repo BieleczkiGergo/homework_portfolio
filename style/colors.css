@@ -1,0 +1,35 @@
+/* palette 3.0 */
+/* coolors: https://coolors.co/0d0630-18314f-384e77-8bbeb2-e6f9af */
+* {
+    --frame-color: #18314f;
+    --main-color: #384e77;
+    --accent-color: #8bbeb2;
+
+    --border-color: #0d0630;
+    --background-color: #e6f9af;
+
+}
+
+
+/* palette 2.0 */
+/* coolors: https://coolors.co/5F4BB6-86A5D9-26F0F1-202A25-C4EBC8 */
+/* * {
+    --frame-color: #5F4BB6;
+    --main-color: #86A5D9;
+    --accent-color: #26F0F1;
+
+    --border-color: #202A25;
+    --background-color: #C4EBC8;
+
+}
+ */
+
+/* palette 1.0 */
+/* * {
+    --frame-color: #069def;
+    --main-color: #38b6fa;
+    --accent-color: #81d1fc;
+    --border-color: #000;
+    --background-color: #fff;
+    
+} */
