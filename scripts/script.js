@@ -83,8 +83,17 @@ putInfo("kocsisa", "Kocsis Ákos",
     "pics/alkos.jpg",
     "Over the course of my learning, I’ve been involved in multiple software development projects, each providing unique challenges and opportunities to refine my skills. I’ve developed applications in both Python and Java, working across a variety of use cases, from web development to data processing and automation. These experiences have not only honed my technical abilities but also taught me the importance of writing clean, scalable code that can be easily understood and maintained by other developers.",
     "pics/akos_career.jpg", [
-    new Skill("java", 4), new Skill("python", 2), new Skill("javascript", 3), new Skill("react", 2), new Skill("English", 5), new Skill("German", 2),
-    new Skill("html", 5), new Skill("css", 4)],
+        new Skill("java", 4),
+        new Skill("python", 2),
+        new Skill("javascript", 3),
+        new Skill("react", 2),
+        new Skill("English", 5),
+        new Skill("German", 2),
+        new Skill("html", 5),
+        new Skill("css", 4),
+
+        new Skill("Driving", 5),
+    ],
     new Contacts("20d_kocsisa@nyirszikszi.hu", "https://github.com/AkosKocsis", "https://www.facebook.com/profile.php?id=100008255951272", "")
 
 );
@@ -93,8 +102,18 @@ putInfo("molnard", "Molnár Dávid",
     "pics/divad.jpg",
     " I have a natural curiosity that pushes me to explore new frameworks, libraries, and tools. I believe in continuous improvement, always refining my coding techniques to stay up-to-date with industry standards. Collaboration is important to me, and I enjoy working with others to create innovative and effective software solutions. Ultimately, my ambition is to contribute to meaningful projects that leverage my skills and positively impact the world.",
     "pics/divad_career.jpg", [
-    new Skill("java", 4), new Skill("python", 2), new Skill("javascript", 3), new Skill("react", 2), new Skill("English", 5), new Skill("German", 0),
-    new Skill("html", 5), new Skill("css", 4), new Skill("C#", 2)],
+        new Skill("java", 4),
+        new Skill("python", 2),
+        new Skill("javascript", 3),
+        new Skill("react", 2),
+        new Skill("English", 5),
+        new Skill("German", 0),
+        new Skill("html", 5),
+        new Skill("css", 4),
+        new Skill("C#", 2),
+
+        new Skill("Driving", 5),
+    ],
     new Contacts("20d_molnard@nyirszkszi.hu", "https://github.com/mdavid05", "https://www.facebook.com/david.molnar.336333", "")
 
 );
@@ -103,8 +122,38 @@ putInfo("bieleczkig", "Kolega",
     "pics/akolega.jpeg",
     "One of my greatest projects yet, is a home helper robot, designed for people with disabilities. It was made for the \"At home\" competition held in in 2024 march. The task was to make a robot that would be controlled by voice commands, is self driving, self navigating and also has machine wision and an arm for picking stuff up. The competition, however, was not held, because no one else came. I can't retry on junior league, as I'm now over 18, but I may retry in the adult league.",
     "pics/robot.jpg", [
-        new Skill("java", 4), new Skill("Python", 4), new Skill("Node.js", 4), new Skill("Express.js", 4), new Skill("English", 5), new Skill("Japanese", 2),
-        new Skill("C", 3), new Skill("Math", 4)],
+        new Skill("java", 4),
+        new Skill("Git", 3),
+        new Skill("Python", 4),
+        new Skill("Node.js", 4),
+        new Skill("Express.js", 4),
+        new Skill("Javascript", 4),
+        new Skill("English", 5),
+        new Skill("Japanese", 2),
+        new Skill("C", 3),
+        new Skill("Math", 4),
+        new Skill("React", 3),
+        new Skill("IT security", 2),
+        new Skill("Electronics", 2),
+        new Skill("Embedded systems programming", 3),
+        new Skill("Robotics", 2),
+        new Skill("Physics", 3),
+        new Skill("3D modeling", 2),
+        new Skill("Vectorgraphic design", 3),
+        new Skill("Networking", 3),
+        new Skill("Chip design", 3),
+        
+        new Skill("Driving", 1),
+        new Skill("Making up random ideas", 5),
+        new Skill("Breathing", 3),
+        new Skill("Being present", 3),
+        new Skill("Getting sponsors", 1),
+        new Skill("Talking", 2),
+        new Skill("Chess", 2),
+        new Skill("Finding shortcuts", 5),
+        new Skill("Collecting scars", 5),
+        new Skill("Making cocktails", 0)
+    ],
     new Contacts("20d_bieleczkig@nyirszikszi.hu", "https://github.com/bieleczkig", "https://www.facebook.com/gergo.bieleczki.1", "")
     
 );
